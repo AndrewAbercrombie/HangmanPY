@@ -9,11 +9,14 @@ import os
 
 def handleCommands():
 
+    #Get a command from the user
     tempCommand = input("Enter a command (Type 'HELP' for a list of commands): \t")
-    tempCommand = tempCommand.lower()
 
+    #Convert said command to lowercase and remove all spaces
+    tempCommand = tempCommand.lower()
     tempCommand = tempCommand.strip()
 
+    #Check what command and do action corosponding to the command
     if tempCommand == 'clear' or tempCommand == 'cls':
         os.system('cls')
         handleCommands()
@@ -32,7 +35,7 @@ def handleCommands():
    
 
 def firstGame():
-    
+    #This will display 
     print("Welcome to The Better Hangman - Developed By Andrew Abercrombie \n\n\n")
 
 
@@ -200,7 +203,8 @@ def main():
             print('\t\t' + HangmanPics.pics[(6 - (lifeCount + 1))])
             print("You have: " + str(lifeCount) + " lives left! \n")
 
-            
+
+#Call the first functions            
 firstGame()
 handleCommands()
 
