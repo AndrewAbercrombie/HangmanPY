@@ -2,7 +2,7 @@
 This is a basic CLI game that simulates a one player hangman experience.
 
 
-#Update
+# Update
 This project is not the most updated verion. For the most updated version visit this link: https://github.com/AndrewAbercrombie/HangmanPY-v2
 
 I originally created this in my first semester Python class in college because I was bored. I at the time of writing this, have released a new version due to the fact that the way this game was created is utter trash. 
